@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login functionality test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login functionality(failed)">
+    <classes>
+      <class name="Tests.Login">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="doLogIn" invocation-numbers="1"/>
+          <include name="afterSuite"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="initDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Tests.Login -->
+    </classes>
+  </test> <!-- Login functionality(failed) -->
+</suite> <!-- Failed suite [Login functionality test] -->
